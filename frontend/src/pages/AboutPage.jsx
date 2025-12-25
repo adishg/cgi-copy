@@ -32,7 +32,7 @@ const AboutPage = () => {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-br from-gray-900 to-gray-800 text-white py-24">
+      <section className="relative bg-[#1A1A1A] text-white py-24">
         <div className="max-w-7xl mx-auto px-6">
           <h1 className="text-5xl font-bold mb-6">About CGI</h1>
           <p className="text-xl text-gray-300 max-w-3xl">
