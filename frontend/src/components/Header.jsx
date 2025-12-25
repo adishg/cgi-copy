@@ -58,7 +58,7 @@ const Header = () => {
             </svg>
           </Link>
 
-          {/* Navigation */}
+          {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
             {menuItems.map((item) => (
               <div
@@ -111,7 +111,7 @@ const Header = () => {
           </nav>
 
           {/* Right side actions */}
-          <div className="flex items-center space-x-4">
+          <div className="hidden md:flex items-center space-x-4">
             <Link
               to="/contact"
               className="text-gray-800 hover:text-[#E31937] font-medium text-sm transition-colors"
@@ -132,8 +132,99 @@ const Header = () => {
               <ChevronDown className="h-4 w-4 text-gray-600" />
             </div>
           </div>
+
+          {/* Mobile menu button */}
+          <button
+            className="md:hidden p-2 text-gray-800 hover:text-[#E31937] transition-colors"
+            onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+            aria-label="Toggle menu"
+          >
+            {mobileMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
+          </button>
         </div>
       </div>
+
+      {/* Mobile Menu */}
+      {mobileMenuOpen && (
+        <div className="md:hidden bg-white border-t border-gray-200 shadow-lg max-h-screen overflow-y-auto">
+          <div className="px-6 py-4 space-y-4">
+            {menuItems.map((item) => (
+              <div key={item.name}>
+                {item.link ? (
+                  <Link
+                    to={item.link}
+                    className="block py-2 text-gray-800 hover:text-[#E31937] font-medium transition-colors"
+                    onClick={() => setMobileMenuOpen(false)}
+                  >
+                    {item.name}
+                  </Link>
+                ) : (
+                  <>
+                    <button
+                      className="w-full flex items-center justify-between py-2 text-gray-800 hover:text-[#E31937] font-medium transition-colors"
+                      onClick={() => setMobileSubmenuOpen(mobileSubmenuOpen === item.name ? null : item.name)}
+                    >
+                      {item.name}
+                      <ChevronDown
+                        className={`h-4 w-4 transition-transform ${
+                          mobileSubmenuOpen === item.name ? 'rotate-180' : ''
+                        }`}
+                      />
+                    </button>
+                    {mobileSubmenuOpen === item.name && item.items && (
+                      <div className="pl-4 space-y-2 mt-2">
+                        {item.items.map((subItem) => (
+                          <Link
+                            key={subItem.name}
+                            to={subItem.link}
+                            className={`block py-2 text-sm transition-colors ${
+                              subItem.featured
+                                ? 'text-[#E31937] font-semibold'
+                                : 'text-gray-700 hover:text-[#E31937]'
+                            }`}
+                            onClick={() => {
+                              setMobileMenuOpen(false);
+                              setMobileSubmenuOpen(null);
+                            }}
+                          >
+                            {subItem.name}
+                          </Link>
+                        ))}
+                      </div>
+                    )}
+                  </>
+                )}
+              </div>
+            ))}
+
+            <Link
+              to="/investors"
+              className="block py-2 text-gray-800 hover:text-[#E31937] font-medium transition-colors"
+              onClick={() => setMobileMenuOpen(false)}
+            >
+              Investors
+            </Link>
+
+            <div className="border-t border-gray-200 pt-4 space-y-3">
+              <Link
+                to="/contact"
+                className="block py-2 text-gray-800 hover:text-[#E31937] font-medium transition-colors"
+                onClick={() => setMobileMenuOpen(false)}
+              >
+                Contact
+              </Link>
+              <button className="flex items-center space-x-2 py-2 text-gray-800 hover:text-[#E31937] transition-colors">
+                <Globe className="h-5 w-5" />
+                <span className="font-medium">Global</span>
+              </button>
+              <button className="flex items-center space-x-2 py-2 text-gray-800 hover:text-[#E31937] transition-colors">
+                <span className="font-medium">EN</span>
+                <ChevronDown className="h-4 w-4" />
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
     </header>
   );
 };
