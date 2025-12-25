@@ -106,7 +106,7 @@ const AboutPage = () => {
       </section>
 
       {/* Leadership Section */}
-      <section className="py-16 bg-gray-50">
+      <section className="py-16 bg-[#F8F8F8]">
         <div className="max-w-7xl mx-auto px-6">
           <h2 className="text-4xl font-bold text-gray-900 mb-8">Leadership</h2>
           <p className="text-lg text-gray-700 mb-12 max-w-3xl">
