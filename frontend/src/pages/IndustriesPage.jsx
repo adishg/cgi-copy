@@ -88,7 +88,7 @@ const IndustriesPage = () => {
       </section>
 
       {/* Voice of Clients Section */}
-      <section className="py-16 bg-gray-50">
+      <section className="py-16 bg-[#F8F8F8]">
         <div className="max-w-7xl mx-auto px-6 text-center">
           <h2 className="text-3xl font-bold text-gray-900 mb-4">Voice of our clients</h2>
           <p className="text-xl text-gray-700 mb-8 max-w-3xl mx-auto">
