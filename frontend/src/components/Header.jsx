@@ -53,9 +53,7 @@ const Header = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <Link to="/" className="flex-shrink-0">
-            <svg width="80" height="40" viewBox="0 0 80 40" className="text-[#E31937]">
-              <text x="10" y="28" fontSize="28" fontWeight="bold" fill="currentColor">Aventra Consulting</text>
-            </svg>
+            <img src="/logo.PNG" alt="Company Logo" className="h-8 w-auto" />
           </Link>
 
           {/* Desktop Navigation */}

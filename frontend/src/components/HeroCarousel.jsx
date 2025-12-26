@@ -32,7 +32,7 @@ const HeroCarousel = ({ slides }) => {
   };
 
   return (
-    <div className="relative bg-[#F8F8F8] overflow-hidden">
+    <div className="relative bg-[#EFEFEF] overflow-hidden">
       <div className="max-w-7xl mx-auto">
         <div className="relative h-[500px] md:h-[600px]">
           {slides.map((slide, index) => (
@@ -77,7 +77,7 @@ const HeroCarousel = ({ slides }) => {
           {/* Navigation Arrows */}
           <button
             onClick={prevSlide}
-            className="absolute left-4 top-1/2 -translate-y-1/2 bg-white p-3 rounded-full shadow-lg hover:bg-gray-100 transition-colors z-20"
+            className="absolute left-0 top-1/2 -translate-y-1/2 bg-white p-3 rounded-full shadow-lg hover:bg-gray-100 transition-colors z-20"
             aria-label="Previous slide"
           >
             <ChevronLeft className="h-6 w-6 text-gray-800" />
