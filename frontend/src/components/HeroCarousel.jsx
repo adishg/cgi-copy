@@ -97,7 +97,8 @@ const HeroCarousel = ({ slides }) => {
             <button
               key={index}
               onClick={() => goToSlide(index)}
-              className={`w-2 h-2 md:w-3 md:h-3 rounded-full transition-all ${\n                index === currentSlide
+              className={`w-2 h-2 md:w-3 md:h-3 rounded-full transition-all ${
+                index === currentSlide
                   ? 'bg-[#E31937] w-6 md:w-8'
                   : 'bg-gray-300 hover:bg-gray-400'
               }`}
