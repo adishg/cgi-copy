@@ -6,10 +6,10 @@ import Footer from './components/Footer';
 import Home from './pages/Home';
 import ServicesPage from './pages/ServicesPage';
 import IndustriesPage from './pages/IndustriesPage';
-import CaseStudiesPage from './pages/CaseStudiesPage';
 import CareersPage from './pages/CareersPage';
 import ContactPage from './pages/ContactPage';
 import AboutPage from './pages/AboutPage';
+import ExelenceDeliveredPage from './pages/ExelenceDeliveredPage';
 
 function App() {
   return (
@@ -22,8 +22,9 @@ function App() {
           <Route path="/services/:serviceId" element={<ServicesPage />} />
           <Route path="/industries" element={<IndustriesPage />} />
           <Route path="/industries/:industryId" element={<IndustriesPage />} />
-          <Route path="/case-studies" element={<CaseStudiesPage />} />
-          <Route path="/case-studies/:caseId" element={<CaseStudiesPage />} />
+          <Route path="/exelence-delivered" element={<ExelenceDeliveredPage />} />
+          {/* <Route path="/casestudies" element={<CaseStudiesPage />} /> */}
+          <Route path="/exelence-delivered/:caseId" element={<CaseStudiesPage />} />
           <Route path="/careers" element={<CareersPage />} />
           <Route path="/contact" element={<ContactPage />} />
           <Route path="/about" element={<AboutPage />} />

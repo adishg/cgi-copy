@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { caseStudies } from '../mockData';
 import { ArrowRight } from 'lucide-react';
 
-const CaseStudiesPage = () => {
+const ExelenceDeliveredPage = () => {
   const allCaseStudies = [
     ...caseStudies,
     {
@@ -48,7 +48,7 @@ const CaseStudiesPage = () => {
       {/* Hero Section */}
       <section className="bg-[#F8F8F8] py-20">
         <div className="max-w-7xl mx-auto px-6">
-          <h1 className="text-5xl font-bold text-gray-900 mb-6">Client success stories</h1>
+          <h1 className="text-5xl font-bold text-gray-900 mb-6">Excelence Delivered And Value Addition</h1>
           <p className="text-xl text-gray-700 max-w-3xl">
             Discover how we've helped clients across industries achieve meaningful and sustainable outcomes through our expertise and partnership.
           </p>
@@ -107,4 +107,4 @@ const CaseStudiesPage = () => {
   );
 };
 
-export default CaseStudiesPage;
+export default ExelenceDeliveredPage;

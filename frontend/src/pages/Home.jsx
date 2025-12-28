@@ -127,10 +127,10 @@ const Home = () => {
           </div>
           <div className="mt-8 text-center">
             <Link
-              to="/case-studies"
+              to="/exelence-delivered"
               className="inline-flex items-center text-[#E31937] font-semibold hover:underline"
             >
-              Discover more of our clients' successes
+              Discover more 
               <ArrowRight className="ml-2 h-5 w-5" />
             </Link>
           </div>
