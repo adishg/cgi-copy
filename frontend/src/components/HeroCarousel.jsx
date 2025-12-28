@@ -92,14 +92,13 @@ const HeroCarousel = ({ slides }) => {
         </div>
 
         {/* Slide Indicators */}
-        <div className="absolute bottom-8 left-1/2 -translate-x-1/2 flex space-x-2 z-20">
+        <div className="absolute bottom-4 md:bottom-8 left-1/2 -translate-x-1/2 flex space-x-2 z-20">
           {slides.map((_, index) => (
             <button
               key={index}
               onClick={() => goToSlide(index)}
-              className={`w-3 h-3 rounded-full transition-all ${
-                index === currentSlide
-                  ? 'bg-[#E31937] w-8'
+              className={`w-2 h-2 md:w-3 md:h-3 rounded-full transition-all ${\n                index === currentSlide
+                  ? 'bg-[#E31937] w-6 md:w-8'
                   : 'bg-gray-300 hover:bg-gray-400'
               }`}
               aria-label={`Go to slide ${index + 1}`}
