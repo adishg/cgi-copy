@@ -10,6 +10,7 @@ import CareersPage from './pages/CareersPage';
 import ContactPage from './pages/ContactPage';
 import AboutPage from './pages/AboutPage';
 import ExelenceDeliveredPage from './pages/ExelenceDeliveredPage';
+import { FloatingWhatsApp } from 'react-floating-whatsapp'
 
 function App() {
   return (
@@ -35,6 +36,15 @@ function App() {
         </Routes>
         <Footer />
       </BrowserRouter>
+      <FloatingWhatsApp 
+        phoneNumber="919055451499" // Include country code
+        accountName="Support"
+        chatMessage="Hello! How can we help?"
+        avatar="https://gravatar.com/avatar/6bed0a553547181a561564cc2daf8583?s=400&d=robohash&r=x"
+        statusMessage="Typically replies within a day"
+        notification
+        notificationSound
+      />
     </div>
   );
 }
