@@ -18,9 +18,9 @@ const CareersPage = () => {
       {/* Hero Section */}
       <section className="relative bg-[#1A1A1A] text-white py-24">
         <div className="max-w-7xl mx-auto px-6">
-          <h1 className="text-5xl font-bold mb-6">Build your career with CGI</h1>
+          <h1 className="text-5xl font-bold mb-6">Build your career with Aventra Consulting</h1>
           <p className="text-xl text-gray-300 max-w-3xl">
-            Join a global team of professionals dedicated to making a difference. At CGI, we're committed to your growth, innovation, and success.
+            Join a global team of professionals dedicated to making a difference. At Aventra Consulting, we're committed to your growth, innovation, and success.
           </p>
         </div>
       </section>
@@ -30,7 +30,7 @@ const CareersPage = () => {
         <div className="max-w-7xl mx-auto px-6">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="text-4xl font-bold text-gray-900 mb-6">Why CGI?</h2>
+              <h2 className="text-4xl font-bold text-gray-900 mb-6">Why Aventra Consulting?</h2>
               <p className="text-lg text-gray-700 mb-6">
                 As one of the world's largest IT and business consulting firms, we offer unparalleled opportunities for professional growth and development. Our member-owner culture ensures that everyone has a voice and a stake in our success.
               </p>
@@ -46,7 +46,7 @@ const CareersPage = () => {
             <div className="aspect-video bg-gradient-to-br from-gray-100 to-gray-200 rounded-lg overflow-hidden">
               <img
                 src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=800&h=600&fit=crop"
-                alt="CGI Team"
+                alt="Aventra Consulting Team"
                 className="w-full h-full object-cover"
               />
             </div>

@@ -76,10 +76,10 @@ const IndustriesPage = () => {
                     {industry.name}
                   </h3>
                   <p className="text-gray-700 mb-4">{industry.description}</p>
-                  <span className="inline-flex items-center text-[#E31937] font-semibold group-hover:underline">
+                  {/* <span className="inline-flex items-center text-[#E31937] font-semibold group-hover:underline">
                     Learn more
                     <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
-                  </span>
+                  </span> */}
                 </div>
               </Link>
             ))}

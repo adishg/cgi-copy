@@ -1,4 +1,4 @@
-// Mock data for CGI clone
+// Mock data for AC clone
 
 export const heroSlides = [
   {
@@ -7,7 +7,7 @@ export const heroSlides = [
     description: "Explore bold human-centered AI thinking, practical expert insights and success stories that help clients accelerate innovation confidently.",
     cta: "Explore the ideas driving smarter, human-led innovation",
     link: "/insights/ai",
-    image: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1200&h=800&fit=crop"
+    image: "https://plus.unsplash.com/premium_photo-1664300897998-d2522c523b08?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
   },
   {
     id: 2,
@@ -15,7 +15,7 @@ export const heroSlides = [
     description: "By transforming GCCs into strategic growth hubs, we help clients unlock agility, resiliency and innovation in an AI-first world.",
     cta: "Discover your organization's next growth engine",
     link: "/services/gcc",
-    image: "https://images.unsplash.com/photo-1552664730-d307ca884978?w=1200&h=800&fit=crop"
+    image: "https://plus.unsplash.com/premium_photo-1723471221191-af951514aec9?q=80&w=821&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
   },
   {
     id: 3,
@@ -54,12 +54,12 @@ export const services = [
 ];
 
 export const solutions = [
-  { name: "CGI Credit Studio", link: "/solutions/credit-studio" },
-  { name: "CGI PulseAI", link: "/solutions/pulseai" },
-  { name: "CGI Trade360", link: "/solutions/trade360" },
-  { name: "CGI OpenGrid360", link: "/solutions/opengrid360" },
-  { name: "CGI All Payments", link: "/solutions/all-payments" },
-  { name: "CGI Retail Suite", link: "/solutions/retail-suite" }
+  { name: "AC Credit Studio", link: "/solutions/credit-studio" },
+  { name: "AC PulseAI", link: "/solutions/pulseai" },
+  { name: "AC Trade360", link: "/solutions/trade360" },
+  { name: "AC OpenGrid360", link: "/solutions/opengrid360" },
+  { name: "AC All Payments", link: "/solutions/all-payments" },
+  { name: "AC Retail Suite", link: "/solutions/retail-suite" }
 ];
 
 export const caseStudies = [
@@ -72,7 +72,7 @@ export const caseStudies = [
   },
   {
     id: 2,
-    title: "Volkswagen Group & CGI: Reimagining managed services",
+    title: "Volkswagen Group & AC: Reimagining managed services",
     company: "Volkswagen Group",
     image: "https://images.unsplash.com/photo-1493238792000-8113da705763?w=600&h=400&fit=crop",
     link: "/case-studies/volkswagen"
@@ -86,7 +86,7 @@ export const caseStudies = [
   },
   {
     id: 4,
-    title: "CGI helps U.S. bank drive efficiencies through debt recovery modernization",
+    title: "AC helps U.S. bank drive efficiencies through debt recovery modernization",
     company: "Case study",
     image: "https://images.unsplash.com/photo-1501167786227-4cba60f6d58f?w=600&h=400&fit=crop",
     link: "/case-studies/us-bank"
@@ -120,21 +120,21 @@ export const experts = [
 export const news = [
   {
     id: 1,
-    title: "CGI files 2025 Annual Disclosure Documents",
+    title: "AC files 2025 Annual Disclosure Documents",
     type: "Press release",
     image: "https://images.unsplash.com/photo-1497366216548-37526070297c?w=600&h=400&fit=crop",
     link: "/news/annual-disclosure-2025"
   },
   {
     id: 2,
-    title: "CGI to deliver secure mobile communications solution for NATO",
+    title: "AC to deliver secure mobile communications solution for NATO",
     type: "Press release",
     image: "https://images.unsplash.com/photo-1563906267088-b029e7101114?w=600&h=400&fit=crop",
     link: "/news/nato-communications"
   },
   {
     id: 3,
-    title: "CGI expands its Winnipeg presence and Canadian footprint with the acquisition of Online Business Systems",
+    title: "AC expands its Winnipeg presence and Canadian footprint with the acquisition of Online Business Systems",
     type: "Press release",
     image: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=600&h=400&fit=crop",
     link: "/news/winnipeg-expansion"

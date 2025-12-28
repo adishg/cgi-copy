@@ -99,7 +99,7 @@ const Footer = () => {
           </div>
 
           <div className="mt-6 text-center md:text-left text-sm text-gray-500">
-            <p>&copy; 2025 CGI Inc. All rights reserved.</p>
+            <p>&copy; 2026 Aventra Consulting Inc. All rights reserved.</p>
           </div>
         </div>
       </div>

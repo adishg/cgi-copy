@@ -34,9 +34,9 @@ const AboutPage = () => {
       {/* Hero Section */}
       <section className="relative bg-[#1A1A1A] text-white py-24">
         <div className="max-w-7xl mx-auto px-6">
-          <h1 className="text-5xl font-bold mb-6">About CGI</h1>
+          <h1 className="text-5xl font-bold mb-6">About Aventra Consulting</h1>
           <p className="text-xl text-gray-300 max-w-3xl">
-            Founded in 1976, CGI is among the largest IT and business consulting services firms in the world. We are insights-driven and outcomes-based to help accelerate returns on your investments.
+            Founded in 2025, Aventra Consulting is among the largest IT and business consulting services firms in the world. We are insights-driven and outcomes-based to help accelerate returns on your investments.
           </p>
         </div>
       </section>
@@ -69,7 +69,7 @@ const AboutPage = () => {
               <h2 className="text-4xl font-bold text-gray-900 mb-6">Our story</h2>
               <div className="space-y-4 text-gray-700">
                 <p>
-                  Since our founding in 1976, CGI has grown from a small Canadian startup to one of the world's largest independent IT and business consulting services firms.
+                  Since our founding in 2025, Aventra Consulting has grown from a small Canadian startup to one of the world's largest independent IT and business consulting services firms.
                 </p>
                 <p>
                   Our success is built on a unique member-owner culture where our professionals are also shareholders. This structure aligns our interests with those of our clients and ensures long-term commitment to quality and excellence.
@@ -82,7 +82,7 @@ const AboutPage = () => {
             <div className="aspect-video bg-gradient-to-br from-gray-100 to-gray-200 rounded-lg overflow-hidden">
               <img
                 src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800&h=600&fit=crop"
-                alt="CGI Building"
+                alt="AC Building"
                 className="w-full h-full object-cover"
               />
             </div>
@@ -110,7 +110,7 @@ const AboutPage = () => {
         <div className="max-w-7xl mx-auto px-6">
           <h2 className="text-4xl font-bold text-gray-900 mb-8">Leadership</h2>
           <p className="text-lg text-gray-700 mb-12 max-w-3xl">
-            Our leadership team brings decades of experience in technology, business consulting, and strategic management to guide CGI's vision and operations.
+            Our leadership team brings decades of experience in technology, business consulting, and strategic management to guide Aventra Consulting's vision and operations.
           </p>
           <div className="grid md:grid-cols-3 gap-8">
             {[

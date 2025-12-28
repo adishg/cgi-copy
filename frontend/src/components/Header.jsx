@@ -9,26 +9,34 @@ const Header = () => {
 
   const menuItems = [
     {
+      name: 'Home',
+      link: '/'
+    },
+    {
+      name: 'About',
+      link: '/about'
+    },
+    {
       name: 'Services',
       items: [
-        { name: 'Business consulting', link: '/services/business-consulting' },
-        { name: 'Business process services', link: '/services/bps' },
-        { name: 'Managed IT services', link: '/services/managed-it' },
-        { name: 'Artificial intelligence', link: '/services/ai' },
-        { name: 'Data analytics', link: '/services/data-analytics' },
-        { name: 'Cloud & hybrid IT', link: '/services/cloud' },
+        { name: 'Business consulting', link: '/services' },
+        { name: 'Business process services', link: '/services' },
+        { name: 'Managed IT services', link: '/services' },
+        { name: 'Artificial intelligence', link: '/services' },
+        { name: 'Data analytics', link: '/services' },
+        { name: 'Cloud & hybrid IT', link: '/services' },
         { name: 'View all services', link: '/services', featured: true }
       ]
     },
     {
       name: 'Industries',
       items: [
-        { name: 'Banking', link: '/industries/banking' },
-        { name: 'Government', link: '/industries/government' },
-        { name: 'Health', link: '/industries/health' },
-        { name: 'Manufacturing', link: '/industries/manufacturing' },
-        { name: 'Retail', link: '/industries/retail' },
-        { name: 'Energy & utilities', link: '/industries/energy' },
+        { name: 'Banking', link: '/industries' },
+        { name: 'Government', link: '/industries' },
+        { name: 'Health', link: '/industries' },
+        { name: 'Manufacturing', link: '/industries' },
+        { name: 'Retail', link: '/industries' },
+        { name: 'Energy & utilities', link: '/industries' },
         { name: 'View all industries', link: '/industries', featured: true }
       ]
     },
@@ -36,7 +44,7 @@ const Header = () => {
       name: 'Insights',
       items: [
         { name: 'Blog', link: '/blog' },
-        { name: 'Case studies', link: '/case-studies' },
+        // { name: 'Case studies', link: '/case-studies' },
         { name: 'News', link: '/news' },
         { name: 'Events', link: '/events' }
       ]

@@ -101,7 +101,7 @@ const Home = () => {
       {/* Case Studies Section */}
       <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-6">
-          <h2 className="text-3xl font-bold text-gray-900 mb-8">Case studies</h2>
+          <h2 className="text-3xl font-bold text-gray-900 mb-8">Excelence Delivered And Value Addition</h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
             {caseStudies.map((study) => (
               <Link
@@ -180,13 +180,13 @@ const Home = () => {
       <section className="py-16 bg-[#1A1A1A]">
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-8">
-            <h2 className="text-3xl font-bold text-white mb-4">CGI – by your side, every day</h2>
+            <h2 className="text-3xl font-bold text-white mb-4">Aventra Consulting – by your side, every day</h2>
           </div>
           <div className="max-w-4xl mx-auto aspect-video bg-gray-800 rounded-lg overflow-hidden">
             <iframe
               className="w-full h-full"
               src="https://www.youtube.com/embed/bb62GbVZa8k"
-              title="CGI Video"
+              title="Aventra Consulting Video"
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen

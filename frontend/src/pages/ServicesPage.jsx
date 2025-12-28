@@ -8,32 +8,38 @@ const ServicesPage = () => {
     {
       name: 'Business consulting',
       description: 'Strategic advisory services that help you navigate complex business challenges and drive meaningful transformation.',
-      benefits: ['Strategic planning', 'Digital transformation', 'Process optimization', 'Change management']
+      benefits: ['Strategic planning', 'Digital transformation', 'Process optimization', 'Change management'],
+      sectionId: 'business-consulting'
     },
     {
       name: 'Business process services',
       description: 'Comprehensive BPS solutions that streamline operations and enhance efficiency across your organization.',
-      benefits: ['Process automation', 'Workflow optimization', 'Cost reduction', 'Quality improvement']
+      benefits: ['Process automation', 'Workflow optimization', 'Cost reduction', 'Quality improvement'],
+      sectionId: 'business-process-services'
     },
     {
       name: 'Managed IT services',
       description: 'End-to-end IT management that allows you to focus on your core business while we handle your technology needs.',
-      benefits: ['24/7 support', 'Infrastructure management', 'Security monitoring', 'Performance optimization']
+      benefits: ['24/7 support', 'Infrastructure management', 'Security monitoring', 'Performance optimization'],
+      sectionId: 'managed-it-services'
     },
     {
       name: 'Artificial intelligence',
       description: 'AI solutions that transform data into actionable insights and drive intelligent automation across your enterprise.',
-      benefits: ['Machine learning', 'Natural language processing', 'Computer vision', 'Predictive analytics']
+      benefits: ['Machine learning', 'Natural language processing', 'Computer vision', 'Predictive analytics'],
+      sectionId: 'artificial-intelligence'
     },
     {
       name: 'Data analytics',
       description: 'Advanced analytics capabilities that unlock the value of your data and drive data-driven decision making.',
-      benefits: ['Business intelligence', 'Advanced analytics', 'Data visualization', 'Real-time insights']
+      benefits: ['Business intelligence', 'Advanced analytics', 'Data visualization', 'Real-time insights'],
+      sectionId: 'data-analytics'
     },
     {
       name: 'Cloud & hybrid IT',
       description: 'Cloud solutions that provide the flexibility, scalability, and security your business needs to thrive.',
-      benefits: ['Cloud migration', 'Hybrid cloud', 'Cloud security', 'Cloud optimization']
+      benefits: ['Cloud migration', 'Hybrid cloud', 'Cloud security', 'Cloud optimization'],
+      sectionId: 'cloud-hybrid-it' 
     }
   ];
 
@@ -54,6 +60,7 @@ const ServicesPage = () => {
         <div className="max-w-7xl mx-auto px-6">
           <div className="grid gap-12">
             {serviceDetails.map((service, index) => (
+              <section id={service.sectionId} key={service.name}>
               <div key={service.name} className="grid md:grid-cols-2 gap-8 items-center">
                 <div className={index % 2 === 1 ? 'md:order-2' : ''}>
                   <h2 className="text-3xl font-bold text-gray-900 mb-4">{service.name}</h2>
@@ -66,13 +73,13 @@ const ServicesPage = () => {
                       </li>
                     ))}
                   </ul>
-                  <Link
+                  {/* <Link
                     to={`/services/${service.name.toLowerCase().replace(/ /g, '-')}`}
                     className="inline-flex items-center text-[#E31937] font-semibold hover:underline"
                   >
                     Learn more
                     <ArrowRight className="ml-2 h-5 w-5" />
-                  </Link>
+                  </Link> */}
                 </div>
                 <div className={index % 2 === 1 ? 'md:order-1' : ''}>
                   <div className="aspect-video bg-gradient-to-br from-gray-100 to-gray-200 rounded-lg overflow-hidden">
@@ -84,6 +91,7 @@ const ServicesPage = () => {
                   </div>
                 </div>
               </div>
+              </section>
             ))}
           </div>
         </div>

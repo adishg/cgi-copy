@@ -37,7 +37,7 @@ const ContactPage = () => {
         <div className="max-w-7xl mx-auto px-6">
           <h1 className="text-5xl font-bold text-gray-900 mb-6">Contact us</h1>
           <p className="text-xl text-gray-700 max-w-3xl">
-            Let's discuss how CGI can help you achieve your business objectives. Reach out to us and we'll connect you with the right experts.
+            Let's discuss how Aventra Consulting can help you achieve your business objectives. Reach out to us and we'll connect you with the right experts.
           </p>
         </div>
       </section>
