@@ -34,7 +34,7 @@ const HeroCarousel = ({ slides }) => {
   return (
     <div className="relative bg-[#F8F8F8] overflow-hidden">
       <div className="max-w-7xl mx-auto">
-        <div className="relative h-[500px] md:h-[600px]">
+        <div className="relative min-h-[600px] md:h-[600px]">
           {slides.map((slide, index) => (
             <div
               key={slide.id}
@@ -42,13 +42,13 @@ const HeroCarousel = ({ slides }) => {
                 index === currentSlide ? 'opacity-100' : 'opacity-0 pointer-events-none'
               }`}
             >
-              <div className="grid md:grid-cols-2 h-full items-center px-6 md:px-12 gap-8">
+              <div className="flex flex-col md:grid md:grid-cols-2 h-full items-center px-6 md:px-12 gap-8 py-8 md:py-0">
                 {/* Text Content */}
-                <div className="space-y-6 py-12">
-                  <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 leading-tight">
+                <div className="space-y-4 md:space-y-6 order-2 md:order-1 z-20">
+                  <h1 className="text-2xl md:text-4xl lg:text-5xl font-bold text-gray-900 leading-tight">
                     {slide.title}
                   </h1>
-                  <p className="text-lg text-gray-700 leading-relaxed">
+                  <p className="text-base md:text-lg text-gray-700 leading-relaxed">
                     {slide.description}
                   </p>
                   <Link
@@ -61,13 +61,13 @@ const HeroCarousel = ({ slides }) => {
                 </div>
 
                 {/* Image */}
-                <div className="relative h-full flex items-center justify-end">
+                <div className="relative w-full h-[300px] md:h-full flex items-center justify-center md:justify-end order-1 md:order-2">
                   {/* Accent gradient element */}
-                  <div className="absolute left-0 top-1/2 -translate-y-1/2 w-32 h-32 bg-gradient-to-br from-[#E31937] to-[#7B2CBF] opacity-80 z-10"></div>
+                  <div className="absolute left-0 top-1/2 -translate-y-1/2 w-16 h-16 md:w-32 md:h-32 bg-gradient-to-br from-[#E31937] to-[#7B2CBF] opacity-80 z-10"></div>
                   <img
                     src={slide.image}
                     alt={slide.title}
-                    className="relative w-full h-[400px] md:h-[500px] object-cover rounded-l-lg shadow-xl"
+                    className="relative w-full h-full object-cover rounded-lg md:rounded-l-lg shadow-xl"
                   />
                 </div>
               </div>
