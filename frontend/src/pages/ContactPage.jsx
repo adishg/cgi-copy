@@ -48,7 +48,15 @@ const ContactPage = () => {
           </p>
         </div>
       </section>
-      {state.succeeded ? <div className="min-h-screen"><p>Thanks for contacting!</p></div> :
+      {state.succeeded ? 
+       <section className="bg-[#F8F8F8] py-20">
+        <div className="max-w-7xl mx-auto px-6">
+          <p className="text-xl text-gray-700 max-w-3xl">
+            Thanks For Contacting
+          </p>
+        </div>
+      </section>
+      :
       <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-6">
           <div className="grid md:grid-cols-2 gap-12">
