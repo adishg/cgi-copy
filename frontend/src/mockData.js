@@ -122,6 +122,8 @@ export const news = [
     id: 1,
     title: "CGI files 2025 Annual Disclosure Documents",
     type: "Press release",
+    date: "January 15, 2025",
+    excerpt: "CGI Inc. announces the filing of its 2025 annual disclosure documents with regulatory authorities.",
     image: "https://images.unsplash.com/photo-1497366216548-37526070297c?w=600&h=400&fit=crop",
     link: "/news/annual-disclosure-2025"
   },
@@ -129,6 +131,8 @@ export const news = [
     id: 2,
     title: "CGI to deliver secure mobile communications solution for NATO",
     type: "Press release",
+    date: "January 10, 2025",
+    excerpt: "NATO has selected CGI to provide next-generation secure mobile communications infrastructure across member nations.",
     image: "https://images.unsplash.com/photo-1563906267088-b029e7101114?w=600&h=400&fit=crop",
     link: "/news/nato-communications"
   },
@@ -136,8 +140,52 @@ export const news = [
     id: 3,
     title: "CGI expands its Winnipeg presence and Canadian footprint with the acquisition of Online Business Systems",
     type: "Press release",
+    date: "December 20, 2024",
+    excerpt: "Strategic acquisition strengthens CGI's capabilities in cloud solutions and enhances service delivery across Canada.",
     image: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=600&h=400&fit=crop",
     link: "/news/winnipeg-expansion"
+  }
+];
+
+export const blogPosts = [
+  {
+    id: 1,
+    title: "The Future of AI in Enterprise: Beyond the Hype",
+    author: "Sarah Mitchell",
+    authorRole: "Chief AI Strategist",
+    date: "January 18, 2025",
+    readTime: "8 min read",
+    category: "Artificial Intelligence",
+    excerpt: "Exploring practical AI implementations that deliver measurable business value while addressing ethical considerations and governance challenges in enterprise environments.",
+    image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=600&fit=crop",
+    tags: ["AI", "Machine Learning", "Enterprise Technology"],
+    link: "/blog/future-of-ai-enterprise"
+  },
+  {
+    id: 2,
+    title: "Cloud Migration Strategies for Legacy Systems: A Comprehensive Guide",
+    author: "Michael Chen",
+    authorRole: "Cloud Solutions Architect",
+    date: "January 12, 2025",
+    readTime: "12 min read",
+    category: "Cloud Computing",
+    excerpt: "Learn proven strategies for migrating legacy systems to the cloud while minimizing risk, reducing downtime, and ensuring business continuity throughout the transformation journey.",
+    image: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&h=600&fit=crop",
+    tags: ["Cloud", "Digital Transformation", "Legacy Modernization"],
+    link: "/blog/cloud-migration-strategies"
+  },
+  {
+    id: 3,
+    title: "Cybersecurity in 2025: Emerging Threats and Defense Strategies",
+    author: "Jennifer Rodriguez",
+    authorRole: "Head of Cybersecurity",
+    date: "January 5, 2025",
+    readTime: "10 min read",
+    category: "Cybersecurity",
+    excerpt: "An in-depth analysis of evolving cyber threats including AI-powered attacks, ransomware trends, and comprehensive security frameworks to protect modern enterprises.",
+    image: "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=800&h=600&fit=crop",
+    tags: ["Cybersecurity", "Risk Management", "Zero Trust"],
+    link: "/blog/cybersecurity-2025"
   }
 ];
 
