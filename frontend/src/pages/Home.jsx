@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import HeroCarousel from '../components/HeroCarousel';
 import { Lightbulb, Network, Package, ArrowRight } from 'lucide-react';
-import { heroSlides, industries, services, solutions, caseStudies, experts, news } from '../mockData';
+import { heroSlides, industries,insights, services, solutions, caseStudies, experts, news } from '../mockData';
 
 const Home = () => {
   return (
@@ -20,25 +20,55 @@ const Home = () => {
                 <div className="p-3 border-2 border-gray-900 rounded-lg">
                   <Lightbulb className="h-8 w-8 text-gray-900" />
                 </div>
-                <h2 className="text-2xl font-bold text-gray-900">Insights</h2>
+                <h2 className="text-2xl font-bold text-gray-900">Geographies Served</h2>
               </div>
               <p className="text-gray-700 leading-relaxed">
                 We provide a global antenna based on facts, not hype, to help improve returns on your IT and business investments.
               </p>
-              <div className="space-y-2 pt-4">
-                {industries.slice(0, 6).map((industry) => (
-                  <Link
-                    key={industry.name}
-                    to={industry.link}
-                    className="block text-gray-700 hover:text-[#E31937] transition-colors"
-                  >
-                    {industry.name}
-                  </Link>
-                ))}
-                <Link to="/industries" className="block text-[#E31937] font-semibold hover:underline pt-2">
-                  Explore all industries →
-                </Link>
-              </div>
+              <div className="space-y-2 pt-4 flex-col md:flex-row md:space-x-6 md:space-y-0">
+                <div className='flex pt-4 flex-col md:flex-row md:space-x-6 md:space-y-0'>
+                <ul>
+                  <li><b>Middle East :</b>
+                    <ol style={{marginLeft:"10px"}}>
+                      <li>Saudi Arabia</li>
+                      <li>Bahrain</li>
+                      <li>UAE</li>
+                      <li>Kuwait</li>
+                    </ol>
+                  </li>                
+                </ul>
+                <ul style={{borderLeft:'1px',borderLeftStyle:"solid"}}>
+                  <li style={{paddingLeft:"10px"}}><b>Europe :</b>
+                    <ol style={{marginLeft:"10px"}}>
+                      <li>UK</li>
+                      <li>France</li>
+                      <li>Germany</li>
+                      <li>Sweden</li>
+                    </ol>
+                  </li>                
+                </ul>
+             </div>
+             <div style={{marginLeft:"0px"}} className='flex pt-4 flex-col md:flex-row md:space-x-6 md:space-y-0 '>
+                <ul>
+                  <li><b>Australia :</b>
+                    <ol style={{marginLeft:"10px"}}>
+                      <li>Australia</li>
+                      <li>New Zealand</li>
+                      
+                    </ol>
+                  </li>                
+                </ul>
+                <ul style={{borderLeft:'1px',borderLeftStyle:"solid"}}>
+                  <li style={{paddingLeft:"10px"}}><b>Americas :</b>
+                    <ol style={{marginLeft:"10px"}}>
+                      <li>Columbia</li>
+                      <li>Puerto Rico</li>
+                    </ol>
+                  </li>                
+                </ul>
+             </div>
+
+               </div>
             </div>
 
             {/* Services */}
@@ -74,13 +104,13 @@ const Home = () => {
                 <div className="p-3 border-2 border-gray-900 rounded-lg">
                   <Package className="h-8 w-8 text-gray-900" />
                 </div>
-                <h2 className="text-2xl font-bold text-gray-900">Solutions</h2>
+                <h2 className="text-2xl font-bold text-gray-900">Industries</h2>
               </div>
               <p className="text-gray-700 leading-relaxed">
                 Our intellectual property-based solutions help you accelerate innovation and drive operational excellence.
               </p>
               <div className="space-y-2 pt-4">
-                {solutions.slice(0, 6).map((solution) => (
+                {industries.slice(0, 6).map((solution) => (
                   <Link
                     key={solution.name}
                     to={solution.link}
@@ -89,7 +119,7 @@ const Home = () => {
                     {solution.name}
                   </Link>
                 ))}
-                <Link to="/solutions" className="block text-[#E31937] font-semibold hover:underline pt-2">
+                <Link to="/industries" className="block text-[#E31937] font-semibold hover:underline pt-2">
                   Explore all solutions →
                 </Link>
               </div>
@@ -103,7 +133,7 @@ const Home = () => {
         <div className="max-w-7xl mx-auto px-6">
           <h2 className="text-3xl font-bold text-gray-900 mb-8">Excelence Delivered And Value Addition</h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-            {caseStudies.map((study) => (
+            {services.slice(0, 4).map((study) => (
               <Link
                 key={study.id}
                 to={study.link}
@@ -127,7 +157,7 @@ const Home = () => {
           </div>
           <div className="mt-8 text-center">
             <Link
-              to="/exelence-delivered"
+              to="/services"
               className="inline-flex items-center text-[#E31937] font-semibold hover:underline"
             >
               Discover more 

@@ -11,6 +11,8 @@ import ContactPage from './pages/ContactPage';
 import AboutPage from './pages/AboutPage';
 import ExelenceDeliveredPage from './pages/ExelenceDeliveredPage';
 import { FloatingWhatsApp } from 'react-floating-whatsapp'
+import BlogPage from './pages/BlogPage';
+import NewsPage from './pages/NewsPage';
 
 function App() {
   return (
@@ -29,8 +31,10 @@ function App() {
           <Route path="/careers" element={<CareersPage />} />
           <Route path="/contact" element={<ContactPage />} />
           <Route path="/about" element={<AboutPage />} />
-          <Route path="/blog" element={<Home />} />
-          <Route path="/news" element={<Home />} />
+          <Route path="/blog" element={<BlogPage />} />
+          <Route path="/blog/:blogId" element={<BlogPage />} />
+          <Route path="/news" element={<NewsPage />} />
+          <Route path="/news/:newsId" element={<NewsPage />} />
           <Route path="/investors" element={<Home />} />
           <Route path="*" element={<Home />} />
         </Routes>

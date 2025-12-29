@@ -1,4 +1,4 @@
-// Mock data for AC clone
+// Mock data for CGI clone
 
 export const heroSlides = [
   {
@@ -7,7 +7,7 @@ export const heroSlides = [
     description: "Explore bold human-centered AI thinking, practical expert insights and success stories that help clients accelerate innovation confidently.",
     cta: "Explore the ideas driving smarter, human-led innovation",
     link: "/insights/ai",
-    image: "https://plus.unsplash.com/premium_photo-1664300897998-d2522c523b08?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    image: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1200&h=800&fit=crop"
   },
   {
     id: 2,
@@ -15,7 +15,7 @@ export const heroSlides = [
     description: "By transforming GCCs into strategic growth hubs, we help clients unlock agility, resiliency and innovation in an AI-first world.",
     cta: "Discover your organization's next growth engine",
     link: "/services/gcc",
-    image: "https://plus.unsplash.com/premium_photo-1723471221191-af951514aec9?q=80&w=821&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    image: "https://images.unsplash.com/photo-1552664730-d307ca884978?w=1200&h=800&fit=crop"
   },
   {
     id: 3,
@@ -44,22 +44,31 @@ export const industries = [
   { name: "Energy & utilities", link: "/industries/energy" }
 ];
 
-export const services = [
-  { name: "Business consulting", link: "/services/business-consulting" },
-  { name: "Business process services", link: "/services/bps" },
-  { name: "Managed IT services", link: "/services/managed-it" },
-  { name: "Artificial intelligence", link: "/services/ai" },
-  { name: "Data analytics", link: "/services/data-analytics" },
-  { name: "Cloud & hybrid IT", link: "/services/cloud" }
+export const insights = [
+  { name: "Blogs", link: "/blog" },
+  { name: "News", link: "/news" },
+  { name: "Events", link: "/events" },
 ];
 
+
+
 export const solutions = [
-  { name: "AC Credit Studio", link: "/solutions/credit-studio" },
-  { name: "AC PulseAI", link: "/solutions/pulseai" },
-  { name: "AC Trade360", link: "/solutions/trade360" },
-  { name: "AC OpenGrid360", link: "/solutions/opengrid360" },
-  { name: "AC All Payments", link: "/solutions/all-payments" },
-  { name: "AC Retail Suite", link: "/solutions/retail-suite" }
+  { name: "CGI Credit Studio", link: "/solutions/credit-studio" },
+  { name: "CGI PulseAI", link: "/solutions/pulseai" },
+  { name: "CGI Trade360", link: "/solutions/trade360" },
+  { name: "CGI OpenGrid360", link: "/solutions/opengrid360" },
+  { name: "CGI All Payments", link: "/solutions/all-payments" },
+  { name: "CGI Retail Suite", link: "/solutions/retail-suite" }
+];
+
+
+export const services = [
+  { name: "Business consulting", link: "/services",title:"Strategic business consulting to drive sustainable growth and organizational excellence", image: "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
+  { name: "Business process services", link: "/services",title:"End-to-end business process services enhancing efficiency, scalability, and operational performance", image: "https://images.unsplash.com/photo-1759752393975-7ca7b302fcc6?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"},
+  { name: "Managed IT services", link: "/services",title:"Managed IT services to ensure optimal performance and security", image: "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
+  { name: "Artificial intelligence", link: "/services", title:"AI solutions to automate processes and enhance decision-making", image: "https://images.unsplash.com/photo-1674027444485-cec3da58eef4?q=80&w=1032&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
+  { name: "Data analytics", link: "/services", title:"Data analytics to extract insights and drive informed decisions", image: "" },
+  { name: "Cloud & hybrid IT", link: "/services", title:"Cloud and hybrid IT solutions for scalable infrastructure", image: "" }
 ];
 
 export const caseStudies = [
@@ -72,7 +81,7 @@ export const caseStudies = [
   },
   {
     id: 2,
-    title: "Volkswagen Group & AC: Reimagining managed services",
+    title: "Volkswagen Group & CGI: Reimagining managed services",
     company: "Volkswagen Group",
     image: "https://images.unsplash.com/photo-1493238792000-8113da705763?w=600&h=400&fit=crop",
     link: "/case-studies/volkswagen"
@@ -86,7 +95,7 @@ export const caseStudies = [
   },
   {
     id: 4,
-    title: "AC helps U.S. bank drive efficiencies through debt recovery modernization",
+    title: "CGI helps U.S. bank drive efficiencies through debt recovery modernization",
     company: "Case study",
     image: "https://images.unsplash.com/photo-1501167786227-4cba60f6d58f?w=600&h=400&fit=crop",
     link: "/case-studies/us-bank"
@@ -120,24 +129,72 @@ export const experts = [
 export const news = [
   {
     id: 1,
-    title: "AC files 2025 Annual Disclosure Documents",
+    title: "Aventra Consulting files 2025 Annual Disclosure Documents",
     type: "Press release",
+    date: "January 15, 2025",
+    excerpt: "Aventra Consulting Inc. announces the filing of its 2025 annual disclosure documents with regulatory authorities.",
     image: "https://images.unsplash.com/photo-1497366216548-37526070297c?w=600&h=400&fit=crop",
     link: "/news/annual-disclosure-2025"
   },
   {
     id: 2,
-    title: "AC to deliver secure mobile communications solution for NATO",
+    title: "Aventra Consulting to deliver secure mobile communications solution for Aitel",
     type: "Press release",
+    date: "January 10, 2025",
+    excerpt: "Airtel has selected Aventra Consulting to provide next-generation secure mobile communications infrastructure across member nations.",
     image: "https://images.unsplash.com/photo-1563906267088-b029e7101114?w=600&h=400&fit=crop",
     link: "/news/nato-communications"
   },
   {
     id: 3,
-    title: "AC expands its Winnipeg presence and Canadian footprint with the acquisition of Online Business Systems",
+    title: "Aventra Consulting expands its Winnipeg presence and Canadian footprint with the acquisition of Online Business Systems",
     type: "Press release",
+    date: "December 20, 2024",
+    excerpt: "Strategic acquisition strengthens CGI's capabilities in cloud solutions and enhances service delivery across Canada.",
     image: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=600&h=400&fit=crop",
     link: "/news/winnipeg-expansion"
+  }
+];
+
+export const blogPosts = [
+  {
+    id: 1,
+    title: "The Future of AI in Enterprise: Beyond the Hype",
+    author: "Sarah Mitchell",
+    authorRole: "Chief AI Strategist",
+    date: "January 18, 2025",
+    readTime: "8 min read",
+    category: "Artificial Intelligence",
+    excerpt: "Exploring practical AI implementations that deliver measurable business value while addressing ethical considerations and governance challenges in enterprise environments.",
+    image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=600&fit=crop",
+    tags: ["AI", "Machine Learning", "Enterprise Technology"],
+    link: "/blog/future-of-ai-enterprise"
+  },
+  {
+    id: 2,
+    title: "Cloud Migration Strategies for Legacy Systems: A Comprehensive Guide",
+    author: "Michael Chen",
+    authorRole: "Cloud Solutions Architect",
+    date: "January 12, 2025",
+    readTime: "12 min read",
+    category: "Cloud Computing",
+    excerpt: "Learn proven strategies for migrating legacy systems to the cloud while minimizing risk, reducing downtime, and ensuring business continuity throughout the transformation journey.",
+    image: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&h=600&fit=crop",
+    tags: ["Cloud", "Digital Transformation", "Legacy Modernization"],
+    link: "/blog/cloud-migration-strategies"
+  },
+  {
+    id: 3,
+    title: "Cybersecurity in 2025: Emerging Threats and Defense Strategies",
+    author: "Jennifer Rodriguez",
+    authorRole: "Head of Cybersecurity",
+    date: "January 5, 2025",
+    readTime: "10 min read",
+    category: "Cybersecurity",
+    excerpt: "An in-depth analysis of evolving cyber threats including AI-powered attacks, ransomware trends, and comprehensive security frameworks to protect modern enterprises.",
+    image: "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=800&h=600&fit=crop",
+    tags: ["Cybersecurity", "Risk Management", "Zero Trust"],
+    link: "/blog/cybersecurity-2025"
   }
 ];
 

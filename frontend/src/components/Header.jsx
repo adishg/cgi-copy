@@ -61,7 +61,7 @@ const Header = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <Link to="/" className="flex-shrink-0">
-            <img src="/logo.PNG" alt="Company Logo" className="h-8 w-auto" />
+            <img style={{height:"60%"}} src="/logo.PNG" alt="Company Logo" className="h-8 w-auto" />
           </Link>
 
           {/* Desktop Navigation */}
@@ -112,7 +112,7 @@ const Header = () => {
               to="/investors"
               className="text-gray-800 hover:text-[#E31937] font-medium text-sm transition-colors"
             >
-              Investors
+              Team
             </Link>
           </nav>
 
@@ -124,7 +124,7 @@ const Header = () => {
             >
               Contact
             </Link>
-            <button className="p-2 text-gray-600 hover:text-[#E31937] transition-colors">
+            {/* <button className="p-2 text-gray-600 hover:text-[#E31937] transition-colors">
               <Search className="h-5 w-5" />
             </button>
             <button className="flex items-center space-x-1 text-gray-800 hover:text-[#E31937] transition-colors">
@@ -136,7 +136,7 @@ const Header = () => {
                 EN
               </button>
               <ChevronDown className="h-4 w-4 text-gray-600" />
-            </div>
+            </div> */}
           </div>
 
           {/* Mobile menu button */}
@@ -208,7 +208,7 @@ const Header = () => {
               className="block py-2 text-gray-800 hover:text-[#E31937] font-medium transition-colors"
               onClick={() => setMobileMenuOpen(false)}
             >
-              Investors
+              Team
             </Link>
 
             <div className="border-t border-gray-200 pt-4 space-y-3">
@@ -219,14 +219,14 @@ const Header = () => {
               >
                 Contact
               </Link>
-              <button className="flex items-center space-x-2 py-2 text-gray-800 hover:text-[#E31937] transition-colors">
+              {/* <button className="flex items-center space-x-2 py-2 text-gray-800 hover:text-[#E31937] transition-colors">
                 <Globe className="h-5 w-5" />
                 <span className="font-medium">Global</span>
               </button>
               <button className="flex items-center space-x-2 py-2 text-gray-800 hover:text-[#E31937] transition-colors">
                 <span className="font-medium">EN</span>
                 <ChevronDown className="h-4 w-4" />
-              </button>
+              </button> */}
             </div>
           </div>
         </div>

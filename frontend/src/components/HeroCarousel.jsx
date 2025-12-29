@@ -51,13 +51,13 @@ const HeroCarousel = ({ slides }) => {
                   <p className="text-base md:text-lg text-gray-700 leading-relaxed">
                     {slide.description}
                   </p>
-                  <Link
+                  {/* <Link
                     to={slide.link}
                     className="inline-flex items-center text-[#E31937] font-semibold hover:underline group transition-all"
                   >
                     {slide.cta}
                     <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
-                  </Link>
+                  </Link> */}
                 </div>
 
                 {/* Image */}
