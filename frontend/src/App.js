@@ -13,6 +13,8 @@ import AboutPage from './pages/AboutPage';
 import BlogPage from './pages/BlogPage';
 import NewsPage from './pages/NewsPage';
 import TeamPage from './pages/TeamPage';
+import BlogDetailPage from './pages/BlogDetailPage';
+import NewsDetailPage from './pages/NewsDetailPage';
 
 function App() {
   return (
@@ -32,9 +34,9 @@ function App() {
           <Route path="/about" element={<AboutPage />} />
           <Route path="/team" element={<TeamPage />} />
           <Route path="/blog" element={<BlogPage />} />
-          <Route path="/blog/:blogId" element={<BlogPage />} />
+          <Route path="/blog/:blogId" element={<BlogDetailPage />} />
           <Route path="/news" element={<NewsPage />} />
-          <Route path="/news/:newsId" element={<NewsPage />} />
+          <Route path="/news/:newsId" element={<NewsDetailPage />} />
           <Route path="/investors" element={<Home />} />
           <Route path="*" element={<Home />} />
         </Routes>
