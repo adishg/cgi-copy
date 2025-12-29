@@ -219,3 +219,90 @@ export const careerRoles = [
     description: "Protect critical infrastructure and data for government clients."
   }
 ];
+
+export const teamMembers = [
+  {
+    id: 1,
+    name: "George D. Schindler",
+    designation: "President & Chief Executive Officer",
+    bio: "Leading CGI's global vision with focus on innovation, client partnerships, and sustainable growth strategies.",
+    image: "https://randomuser.me/api/portraits/men/32.jpg"
+  },
+  {
+    id: 2,
+    name: "François Boulanger",
+    designation: "Executive Vice-President & CFO",
+    bio: "Overseeing financial strategy, investor relations, and operational excellence across all CGI business units worldwide.",
+    image: "https://randomuser.me/api/portraits/men/45.jpg"
+  },
+  {
+    id: 3,
+    name: "Stephanie Lavallee",
+    designation: "Chief Operating Officer",
+    bio: "Driving operational transformation, service delivery excellence, and ensuring client satisfaction across global operations.",
+    image: "https://randomuser.me/api/portraits/women/47.jpg"
+  },
+  {
+    id: 4,
+    name: "Sarah Mitchell",
+    designation: "Chief Technology Officer",
+    bio: "Leading technology innovation, AI strategy, and digital transformation initiatives for enterprise clients globally.",
+    image: "https://randomuser.me/api/portraits/women/65.jpg"
+  },
+  {
+    id: 5,
+    name: "Michael Chen",
+    designation: "Chief Information Officer",
+    bio: "Managing enterprise IT infrastructure, cybersecurity, and technology operations supporting CGI's global service delivery.",
+    image: "https://randomuser.me/api/portraits/men/52.jpg"
+  },
+  {
+    id: 6,
+    name: "Jennifer Rodriguez",
+    designation: "Chief Security Officer",
+    bio: "Protecting organizational assets, ensuring compliance, and leading cybersecurity strategy for clients and operations.",
+    image: "https://randomuser.me/api/portraits/women/44.jpg"
+  },
+  {
+    id: 7,
+    name: "David Thompson",
+    designation: "Chief Marketing Officer",
+    bio: "Shaping brand strategy, market positioning, and client engagement initiatives across all regions and industries.",
+    image: "https://randomuser.me/api/portraits/men/28.jpg"
+  },
+  {
+    id: 8,
+    name: "Lisa Anderson",
+    designation: "Chief Human Resources Officer",
+    bio: "Building talent strategy, fostering inclusive culture, and developing leadership programs for global workforce.",
+    image: "https://randomuser.me/api/portraits/women/32.jpg"
+  },
+  {
+    id: 9,
+    name: "Robert Martinez",
+    designation: "Chief Strategy Officer",
+    bio: "Defining corporate strategy, identifying growth opportunities, and leading mergers and acquisitions for expansion.",
+    image: "https://randomuser.me/api/portraits/men/38.jpg"
+  },
+  {
+    id: 10,
+    name: "Emily Watson",
+    designation: "Chief Customer Officer",
+    bio: "Enhancing client experience, building long-term partnerships, and ensuring value delivery across all engagements.",
+    image: "https://randomuser.me/api/portraits/women/28.jpg"
+  },
+  {
+    id: 11,
+    name: "James Kim",
+    designation: "Chief Innovation Officer",
+    bio: "Driving innovation labs, emerging technology adoption, and R&D initiatives for competitive advantage.",
+    image: "https://randomuser.me/api/portraits/men/42.jpg"
+  },
+  {
+    id: 12,
+    name: "Maria Santos",
+    designation: "Chief Legal Officer",
+    bio: "Leading legal affairs, compliance programs, risk management, and governance across all CGI operations.",
+    image: "https://randomuser.me/api/portraits/women/38.jpg"
+  }
+];
