@@ -122,6 +122,8 @@ export const news = [
     id: 1,
     title: "CGI files 2025 Annual Disclosure Documents",
     type: "Press release",
+    date: "January 15, 2025",
+    excerpt: "CGI Inc. announces the filing of its 2025 annual disclosure documents with regulatory authorities.",
     image: "https://images.unsplash.com/photo-1497366216548-37526070297c?w=600&h=400&fit=crop",
     link: "/news/annual-disclosure-2025"
   },
@@ -129,6 +131,8 @@ export const news = [
     id: 2,
     title: "CGI to deliver secure mobile communications solution for NATO",
     type: "Press release",
+    date: "January 10, 2025",
+    excerpt: "NATO has selected CGI to provide next-generation secure mobile communications infrastructure across member nations.",
     image: "https://images.unsplash.com/photo-1563906267088-b029e7101114?w=600&h=400&fit=crop",
     link: "/news/nato-communications"
   },
@@ -136,8 +140,52 @@ export const news = [
     id: 3,
     title: "CGI expands its Winnipeg presence and Canadian footprint with the acquisition of Online Business Systems",
     type: "Press release",
+    date: "December 20, 2024",
+    excerpt: "Strategic acquisition strengthens CGI's capabilities in cloud solutions and enhances service delivery across Canada.",
     image: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=600&h=400&fit=crop",
     link: "/news/winnipeg-expansion"
+  }
+];
+
+export const blogPosts = [
+  {
+    id: 1,
+    title: "The Future of AI in Enterprise: Beyond the Hype",
+    author: "Sarah Mitchell",
+    authorRole: "Chief AI Strategist",
+    date: "January 18, 2025",
+    readTime: "8 min read",
+    category: "Artificial Intelligence",
+    excerpt: "Exploring practical AI implementations that deliver measurable business value while addressing ethical considerations and governance challenges in enterprise environments.",
+    image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=600&fit=crop",
+    tags: ["AI", "Machine Learning", "Enterprise Technology"],
+    link: "/blog/future-of-ai-enterprise"
+  },
+  {
+    id: 2,
+    title: "Cloud Migration Strategies for Legacy Systems: A Comprehensive Guide",
+    author: "Michael Chen",
+    authorRole: "Cloud Solutions Architect",
+    date: "January 12, 2025",
+    readTime: "12 min read",
+    category: "Cloud Computing",
+    excerpt: "Learn proven strategies for migrating legacy systems to the cloud while minimizing risk, reducing downtime, and ensuring business continuity throughout the transformation journey.",
+    image: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&h=600&fit=crop",
+    tags: ["Cloud", "Digital Transformation", "Legacy Modernization"],
+    link: "/blog/cloud-migration-strategies"
+  },
+  {
+    id: 3,
+    title: "Cybersecurity in 2025: Emerging Threats and Defense Strategies",
+    author: "Jennifer Rodriguez",
+    authorRole: "Head of Cybersecurity",
+    date: "January 5, 2025",
+    readTime: "10 min read",
+    category: "Cybersecurity",
+    excerpt: "An in-depth analysis of evolving cyber threats including AI-powered attacks, ransomware trends, and comprehensive security frameworks to protect modern enterprises.",
+    image: "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=800&h=600&fit=crop",
+    tags: ["Cybersecurity", "Risk Management", "Zero Trust"],
+    link: "/blog/cybersecurity-2025"
   }
 ];
 
@@ -169,5 +217,92 @@ export const careerRoles = [
     location: "Washington, DC",
     type: "Full-time",
     description: "Protect critical infrastructure and data for government clients."
+  }
+];
+
+export const teamMembers = [
+  {
+    id: 1,
+    name: "George D. Schindler",
+    designation: "President & Chief Executive Officer",
+    bio: "Leading CGI's global vision with focus on innovation, client partnerships, and sustainable growth strategies.",
+    image: "https://randomuser.me/api/portraits/men/32.jpg"
+  },
+  {
+    id: 2,
+    name: "François Boulanger",
+    designation: "Executive Vice-President & CFO",
+    bio: "Overseeing financial strategy, investor relations, and operational excellence across all CGI business units worldwide.",
+    image: "https://randomuser.me/api/portraits/men/45.jpg"
+  },
+  {
+    id: 3,
+    name: "Stephanie Lavallee",
+    designation: "Chief Operating Officer",
+    bio: "Driving operational transformation, service delivery excellence, and ensuring client satisfaction across global operations.",
+    image: "https://randomuser.me/api/portraits/women/47.jpg"
+  },
+  {
+    id: 4,
+    name: "Sarah Mitchell",
+    designation: "Chief Technology Officer",
+    bio: "Leading technology innovation, AI strategy, and digital transformation initiatives for enterprise clients globally.",
+    image: "https://randomuser.me/api/portraits/women/65.jpg"
+  },
+  {
+    id: 5,
+    name: "Michael Chen",
+    designation: "Chief Information Officer",
+    bio: "Managing enterprise IT infrastructure, cybersecurity, and technology operations supporting CGI's global service delivery.",
+    image: "https://randomuser.me/api/portraits/men/52.jpg"
+  },
+  {
+    id: 6,
+    name: "Jennifer Rodriguez",
+    designation: "Chief Security Officer",
+    bio: "Protecting organizational assets, ensuring compliance, and leading cybersecurity strategy for clients and operations.",
+    image: "https://randomuser.me/api/portraits/women/44.jpg"
+  },
+  {
+    id: 7,
+    name: "David Thompson",
+    designation: "Chief Marketing Officer",
+    bio: "Shaping brand strategy, market positioning, and client engagement initiatives across all regions and industries.",
+    image: "https://randomuser.me/api/portraits/men/28.jpg"
+  },
+  {
+    id: 8,
+    name: "Lisa Anderson",
+    designation: "Chief Human Resources Officer",
+    bio: "Building talent strategy, fostering inclusive culture, and developing leadership programs for global workforce.",
+    image: "https://randomuser.me/api/portraits/women/32.jpg"
+  },
+  {
+    id: 9,
+    name: "Robert Martinez",
+    designation: "Chief Strategy Officer",
+    bio: "Defining corporate strategy, identifying growth opportunities, and leading mergers and acquisitions for expansion.",
+    image: "https://randomuser.me/api/portraits/men/38.jpg"
+  },
+  {
+    id: 10,
+    name: "Emily Watson",
+    designation: "Chief Customer Officer",
+    bio: "Enhancing client experience, building long-term partnerships, and ensuring value delivery across all engagements.",
+    image: "https://randomuser.me/api/portraits/women/28.jpg"
+  },
+  {
+    id: 11,
+    name: "James Kim",
+    designation: "Chief Innovation Officer",
+    bio: "Driving innovation labs, emerging technology adoption, and R&D initiatives for competitive advantage.",
+    image: "https://randomuser.me/api/portraits/men/42.jpg"
+  },
+  {
+    id: 12,
+    name: "Maria Santos",
+    designation: "Chief Legal Officer",
+    bio: "Leading legal affairs, compliance programs, risk management, and governance across all CGI operations.",
+    image: "https://randomuser.me/api/portraits/women/38.jpg"
   }
 ];
