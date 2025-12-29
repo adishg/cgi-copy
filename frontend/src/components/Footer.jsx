@@ -30,6 +30,7 @@ const Footer = () => {
       title: 'Company',
       links: [
         { name: 'About us', url: '/about' },
+        { name: 'Team', url: '/team' },
         { name: 'Careers', url: '/careers' },
         { name: 'News', url: '/news' },
         { name: 'Investors', url: '/investors' },
