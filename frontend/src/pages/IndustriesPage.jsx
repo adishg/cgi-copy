@@ -107,12 +107,12 @@ const IndustriesPage = () => {
       </section>
 
       {/* Voice of Clients Section */}
-      <section className="py-16 bg-[#F8F8F8]">
-        <div className="max-w-7xl mx-auto px-6 text-center">
-          <h2 className="text-3xl font-bold text-gray-900 mb-4">Voice of our clients</h2>
-          <p className="text-xl text-gray-700 mb-8 max-w-3xl mx-auto">
+      {/* <section className="py-16 bg-[#F8F8F8]"> */}
+        {/* <div className="max-w-7xl mx-auto px-6 text-center"> */}
+          {/* <h2 className="text-3xl font-bold text-gray-900 mb-4">Voice of our clients</h2> */}
+          {/* <p className="text-xl text-gray-700 mb-8 max-w-3xl mx-auto">
             Every year, we conduct thousands of in-depth client interviews to understand their priorities, challenges, and expectations.
-          </p>
+          </p> */}
           {/* <Link
             to="/voice-of-clients"
             className="inline-flex items-center text-[#E31937] font-semibold hover:underline text-lg"
@@ -120,8 +120,8 @@ const IndustriesPage = () => {
             Read the latest insights
             <ArrowRight className="ml-2 h-5 w-5" />
           </Link> */}
-        </div>
-      </section>
+        {/* </div> */}
+      {/* </section> */}
     </div>
   );
 };
