@@ -114,16 +114,16 @@ const AboutPage = () => {
           </p>
           <div className="grid md:grid-cols-3 gap-8">
             {[
-              { name: 'George D. Schindler', title: 'President and CEO', image: 'https://randomuser.me/api/portraits/men/32.jpg' },
-              { name: 'François Boulanger', title: 'Executive Vice-President and CFO', image: 'https://randomuser.me/api/portraits/men/45.jpg' },
-              { name: 'Stephanie Lavallee', title: 'Chief Operating Officer', image: 'https://randomuser.me/api/portraits/women/47.jpg' }
+              { name: 'Vikas Grover', title: 'President and CEO', image: './assets/CEO.jpg' },
+              { name: 'François Boulanger', title: 'Executive Vice-President and CFO', image: './assets/CEO.jpg' },
+              { name: 'Stephanie Lavallee', title: 'Chief Operating Officer', image: './assets/CEO.jpg' }
             ].map((leader) => (
               <div key={leader.name} className="text-center">
                 <div className="w-48 h-48 mx-auto mb-4 rounded-full overflow-hidden">
                   <img
                     src={leader.image}
                     alt={leader.name}
-                    className="w-full h-full object-cover"
+                    className="object-cover"
                   />
                 </div>
                 <h3 className="text-xl font-bold text-gray-900 mb-2">{leader.name}</h3>
