@@ -80,7 +80,7 @@ const CareersPage = () => {
                     </div>
                   </div>
                   <Link
-                    to={`/careers/${role.id}`}
+                    to={`/contact`}
                     className="inline-flex items-center bg-[#E31937] text-white px-6 py-3 rounded-md font-semibold hover:bg-[#C01530] transition-colors whitespace-nowrap"
                   >
                     Apply now

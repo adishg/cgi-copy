@@ -120,7 +120,7 @@ const Home = () => {
                   </Link>
                 ))}
                 <Link to="/industries" className="block text-[#E31937] font-semibold hover:underline pt-2">
-                  Explore all solutions →
+                  Explore all industries →
                 </Link>
               </div>
             </div>

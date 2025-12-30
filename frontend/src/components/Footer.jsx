@@ -32,18 +32,16 @@ const Footer = () => {
         { name: 'About us', url: '/about' },
         { name: 'Careers', url: '/careers' },
         { name: 'News', url: '/news' },
-        { name: 'Investors', url: '/investors' },
+        { name: 'Team', url: '/team' },
         { name: 'Contact', url: '/contact' },
-        { name: 'Locations', url: '/locations' }
       ]
     },
     {
       title: 'Insights',
       links: [
         { name: 'Blog', url: '/blog' },
-        { name: 'Case studies', url: '/case-studies' },
-        { name: 'Events', url: '/events' },
-        { name: 'Voice of our clients', url: '/voice-of-clients' }
+        { name: 'News', url: '/news' },
+        // { name: 'Industries', url: '/industries' }
       ]
     }
   ];

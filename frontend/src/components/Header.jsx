@@ -46,7 +46,7 @@ const Header = () => {
         { name: 'Blog', link: '/blog' },
         // { name: 'Case studies', link: '/case-studies' },
         { name: 'News', link: '/news' },
-        { name: 'Events', link: '/events' }
+        // { name: 'Events', link: '/events' }
       ]
     },
     {

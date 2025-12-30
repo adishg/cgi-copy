@@ -168,7 +168,7 @@ const ContactPage = () => {
                   <label htmlFor="country" className="block text-sm font-medium text-gray-700 mb-2">
                     Country *
                   </label>
-                  <select
+                  {/* <select
                     id="country"
                     name="country"
                     // required
@@ -183,7 +183,16 @@ const ContactPage = () => {
                     <option value="France">France</option>
                     <option value="Germany">Germany</option>
                     <option value="Other">Other</option>
-                  </select>
+                  </select> */}
+                  <input
+                    type="text"
+                    id="country"
+                    name="country"
+                    // value={formData.country}
+                    // disabled={state.submitting}
+                    // onChange={handleChange}
+                    className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#E31937]"
+                  />
                   <ValidationError
                     prefix="Country"
                     field="country"
