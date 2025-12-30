@@ -109,7 +109,7 @@ const Header = () => {
             ))}
 
             <Link
-              to="/investors"
+              to="/team"
               className="text-gray-800 hover:text-[#E31937] font-medium text-sm transition-colors"
             >
               Team

@@ -215,7 +215,7 @@ const Home = () => {
           <div className="max-w-4xl mx-auto aspect-video bg-gray-800 rounded-lg overflow-hidden">
             <iframe
               className="w-full h-full"
-              src="https://www.youtube.com/embed/bb62GbVZa8k"
+              src="https://www.youtube.com/embed/rfB0phiFZaI"
               title="Aventra Consulting Video"
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
