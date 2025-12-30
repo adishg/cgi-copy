@@ -26,7 +26,7 @@ const Home = () => {
                 We provide a global antenna based on facts, not hype, to help improve returns on your IT and business investments.
               </p>
               <div className="space-y-2 pt-4 flex-col md:flex-row md:space-x-6 md:space-y-0">
-                <div className='flex pt-4 flex-col md:flex-row md:space-x-6 md:space-y-0'>
+                <div className='flex pt-4 md:flex-row md:space-x-6 md:space-y-0 justify-left justify-center md:justify-start'>
                 <ul>
                   <li><b>Middle East :</b>
                     <ol style={{marginLeft:"10px"}}>
@@ -37,7 +37,7 @@ const Home = () => {
                     </ol>
                   </li>                
                 </ul>
-                <ul style={{borderLeft:'1px',borderLeftStyle:"solid"}}>
+                <ul style={{borderLeft:'1px',borderLeftStyle:"solid",marginLeft:"10px"}}>
                   <li style={{paddingLeft:"10px"}}><b>Europe :</b>
                     <ol style={{marginLeft:"10px"}}>
                       <li>UK</li>
@@ -48,7 +48,7 @@ const Home = () => {
                   </li>                
                 </ul>
              </div>
-             <div style={{marginLeft:"0px"}} className='flex pt-4 flex-col md:flex-row md:space-x-6 md:space-y-0 '>
+             <div style={{marginLeft:"0px"}} className='flex pt-4 md:flex-row md:space-x-6 md:space-y-0 justify-center md:justify-start ml-[10px] '>
                 <ul>
                   <li><b>Australia :</b>
                     <ol style={{marginLeft:"10px"}}>
@@ -58,7 +58,7 @@ const Home = () => {
                     </ol>
                   </li>                
                 </ul>
-                <ul style={{borderLeft:'1px',borderLeftStyle:"solid"}}>
+                <ul style={{borderLeft:'1px',borderLeftStyle:"solid",marginLeft:"10px"}}>
                   <li style={{paddingLeft:"10px"}}><b>Americas :</b>
                     <ol style={{marginLeft:"10px"}}>
                       <li>Columbia</li>
