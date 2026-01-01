@@ -114,9 +114,10 @@ const AboutPage = () => {
           </p>
           <div className="grid md:grid-cols-3 gap-8">
             {[
-              { name: 'Vikas Grover', title: 'President and CEO', image: './assets/CEO.jpg' },
-              { name: 'François Boulanger', title: 'Executive Vice-President and CFO', image: './assets/CEO.jpg' },
-              { name: 'Stephanie Lavallee', title: 'Chief Operating Officer', image: './assets/CEO.jpg' }
+              { name: 'Deepti Grover', title: 'Chief Operating Officer', image: './assets/team/COO.jpg' },
+              { name: 'Vikas Grover', title: 'President and CEO', image: './assets/team/CEO.jpg' },
+              { name: 'Ramesh Mahajan', title: 'Executive Vice-President and CFO', image: './assets/team/CFO.jpg' }
+
             ].map((leader) => (
               <div key={leader.name} className="text-center">
                 <div className="w-48 h-48 mx-auto mb-4 rounded-full overflow-hidden">
