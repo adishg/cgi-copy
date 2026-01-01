@@ -39,7 +39,7 @@ function App() {
            <Route path="/blog/:blogId" element={<BlogDetailPage />} />
           <Route path="/news" element={<NewsPage />} />
            <Route path="/news/:newsId" element={<NewsDetailPage />} />
-          <Route path="/investors" element={<Home />} />
+          <Route path="/team" element={<TeamPage />} />
           <Route path="*" element={<Home />} />
         </Routes>
         <Footer />

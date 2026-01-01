@@ -204,7 +204,7 @@ const Header = () => {
             ))}
 
             <Link
-              to="/investors"
+              to="/team"
               className="block py-2 text-gray-800 hover:text-[#E31937] font-medium transition-colors"
               onClick={() => setMobileMenuOpen(false)}
             >
