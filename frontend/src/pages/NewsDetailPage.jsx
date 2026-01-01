@@ -19,9 +19,9 @@ const NewsDetailPage = () => {
     mainContent: [
       "The announcement comes as part of Aventra Consulting's ongoing strategy to enhance its service delivery capabilities and strengthen its position as a trusted technology partner for organizations worldwide. This development reflects the company's continued investment in cutting-edge technology and expertise.",
       
-      "\"At Aventra Consulting, we are committed to delivering exceptional value to our clients through innovation, expertise, and a deep understanding of their business challenges,\" said George D. Schindler, President and Chief Executive Officer of Aventra Consulting. \"This announcement represents another significant milestone in our journey to help clients navigate the complexities of digital transformation.\"",
+      "\"At Aventra Consulting, we are committed to delivering exceptional value to our clients through innovation, expertise, and a deep understanding of their business challenges,\" said Vikas Grover, President and Chief Executive Officer of Aventra Consulting. \"This announcement represents another significant milestone in our journey to help clients navigate the complexities of digital transformation.\"",
       
-      "The initiative builds upon Aventra Consulting's proven track record of successfully implementing large-scale technology solutions across multiple industries. With over 94,000 professionals operating in more than 400 locations worldwide, Aventra Consulting brings unparalleled scale and expertise to every client engagement.",
+      "The initiative builds upon Aventra Consulting's proven track record of successfully implementing large-scale technology solutions across multiple industries. With over 100+ professionals operating in more than 20 locations worldwide, Aventra Consulting brings unparalleled scale and expertise to every client engagement.",
       
       "Industry analysts have responded positively to the announcement, noting Aventra Consulting's consistent ability to anticipate market trends and position itself strategically for future growth. The company's member-owner culture and proximity model continue to differentiate it in an increasingly competitive marketplace.",
       
@@ -30,7 +30,7 @@ const NewsDetailPage = () => {
     
     quote: {
       text: "This development reinforces Aventra Consulting's position as a leader in the global IT services market and demonstrates our unwavering commitment to innovation and client success.",
-      author: "François Boulanger",
+      author: "Rovil Mahajan",
       title: "Executive Vice-President and CFO, Aventra Consulting"
     },
     
@@ -77,7 +77,7 @@ const NewsDetailPage = () => {
               <span className="font-medium">{newsItem.date}</span>
             </div>
             <div>
-              <span className="text-sm text-gray-600">Montreal, Quebec, Canada</span>
+              <span className="text-sm text-gray-600">Gurugram , India</span>
             </div>
           </div>
 
@@ -172,11 +172,11 @@ const NewsDetailPage = () => {
               <p>
                 <strong>Email:</strong>{' '}
                 <a href="mailto:media@cgi.com" className="text-[#E31937] hover:underline">
-                  media@cgi.com
+                  sales@consultaventra.com
                 </a>
               </p>
               <p>
-                <strong>Phone:</strong> +1 514 841 3355
+                <strong>Phone:</strong> +91 9070030003
               </p>
             </div>
           </div>
