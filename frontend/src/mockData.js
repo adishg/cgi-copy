@@ -235,21 +235,21 @@ export const teamMembers = [
     name: "Vikas Grover",
     designation: "President & Chief Executive Officer",
     bio: "Leading Aventra Consulting Inc.'s global vision with focus on innovation, client partnerships, and sustainable growth strategies.",
-    image: "../public/team/CEO.jpg"
+    image: "./team/CEO.jpg"
   },
   {
     id: 2,
-    name: "François Boulanger",
-    designation: "Executive Vice-President & CFO",
-    bio: "Overseeing financial strategy, investor relations, and operational excellence across all CGI business units worldwide.",
-    image: "https://randomuser.me/api/portraits/men/45.jpg"
+    name: "Deepti Grover",
+    designation: "Executive Vice-President & COO",
+    bio: "Driving operational transformation, service delivery excellence, and ensuring client satisfaction across global operations.",
+    image: "./team/COO.jpg"
   },
   {
     id: 3,
-    name: "Stephanie Lavallee",
+    name: "Ramesh Mahajan",
     designation: "Chief Operating Officer",
-    bio: "Driving operational transformation, service delivery excellence, and ensuring client satisfaction across global operations.",
-    image: "https://randomuser.me/api/portraits/women/47.jpg"
+    bio: "Overseeing financial strategy, investor relations, and operational excellence across all CGI business units worldwide.",
+    image: "./team/CFO.png"
   },
   {
     id: 4,
