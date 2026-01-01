@@ -74,13 +74,13 @@ const BlogDetailPage = () => {
 
           {/* Meta Information */}
           <div className="flex flex-wrap items-center gap-4 md:gap-6 text-gray-600 mb-8 pb-8 border-b border-gray-200">
-            <div className="flex items-center gap-2">
+            {/* <div className="flex items-center gap-2">
               <User className="h-5 w-5 text-[#E31937]" />
               <div>
                 <div className="font-semibold text-gray-900">{post.author}</div>
                 <div className="text-sm">{post.authorRole}</div>
               </div>
-            </div>
+            </div> */}
             <div className="flex items-center gap-2">
               <Calendar className="h-5 w-5 text-[#E31937]" />
               <span>{post.date}</span>
@@ -176,7 +176,7 @@ const BlogDetailPage = () => {
           </div>
 
           {/* Author Bio */}
-          <div className="mt-12 p-6 bg-[#F8F8F8] rounded-lg">
+          {/* <div className="mt-12 p-6 bg-[#F8F8F8] rounded-lg">
             <div className="flex items-start gap-4">
               <img
                 src={`https://randomuser.me/api/portraits/women/${post.id * 10}.jpg`}
@@ -191,7 +191,7 @@ const BlogDetailPage = () => {
                 </p>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </article>
 
