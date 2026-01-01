@@ -232,10 +232,10 @@ export const careerRoles = [
 export const teamMembers = [
   {
     id: 1,
-    name: "George D. Schindler",
+    name: "Vikas Grover",
     designation: "President & Chief Executive Officer",
-    bio: "Leading CGI's global vision with focus on innovation, client partnerships, and sustainable growth strategies.",
-    image: "https://randomuser.me/api/portraits/men/32.jpg"
+    bio: "Leading Aventra Consulting Inc.'s global vision with focus on innovation, client partnerships, and sustainable growth strategies.",
+    image: "../public/team/CEO.jpg"
   },
   {
     id: 2,
@@ -272,46 +272,4 @@ export const teamMembers = [
     bio: "Protecting organizational assets, ensuring compliance, and leading cybersecurity strategy for clients and operations.",
     image: "https://randomuser.me/api/portraits/women/44.jpg"
   },
-  {
-    id: 7,
-    name: "David Thompson",
-    designation: "Chief Marketing Officer",
-    bio: "Shaping brand strategy, market positioning, and client engagement initiatives across all regions and industries.",
-    image: "https://randomuser.me/api/portraits/men/28.jpg"
-  },
-  {
-    id: 8,
-    name: "Lisa Anderson",
-    designation: "Chief Human Resources Officer",
-    bio: "Building talent strategy, fostering inclusive culture, and developing leadership programs for global workforce.",
-    image: "https://randomuser.me/api/portraits/women/32.jpg"
-  },
-  {
-    id: 9,
-    name: "Robert Martinez",
-    designation: "Chief Strategy Officer",
-    bio: "Defining corporate strategy, identifying growth opportunities, and leading mergers and acquisitions for expansion.",
-    image: "https://randomuser.me/api/portraits/men/38.jpg"
-  },
-  {
-    id: 10,
-    name: "Emily Watson",
-    designation: "Chief Customer Officer",
-    bio: "Enhancing client experience, building long-term partnerships, and ensuring value delivery across all engagements.",
-    image: "https://randomuser.me/api/portraits/women/28.jpg"
-  },
-  {
-    id: 11,
-    name: "James Kim",
-    designation: "Chief Innovation Officer",
-    bio: "Driving innovation labs, emerging technology adoption, and R&D initiatives for competitive advantage.",
-    image: "https://randomuser.me/api/portraits/men/42.jpg"
-  },
-  {
-    id: 12,
-    name: "Maria Santos",
-    designation: "Chief Legal Officer",
-    bio: "Leading legal affairs, compliance programs, risk management, and governance across all CGI operations.",
-    image: "https://randomuser.me/api/portraits/women/38.jpg"
-  }
 ];
