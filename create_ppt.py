@@ -5,20 +5,18 @@ Aventra Consulting - Company Profile PowerPoint Generator
 
 from pptx import Presentation
 from pptx.util import Inches, Pt
-from pptx.dml.color import RgbColor
+from pptx.dml.color import RGBColor
 from pptx.enum.text import PP_ALIGN, MSO_ANCHOR
 from pptx.enum.shapes import MSO_SHAPE
-from pptx.oxml.ns import nsmap
-from pptx.oxml import parse_xml
 import os
 
 # Define brand colors
-PRIMARY_COLOR = RgbColor(0, 51, 102)      # Dark Blue
-SECONDARY_COLOR = RgbColor(0, 102, 153)   # Medium Blue
-ACCENT_COLOR = RgbColor(0, 153, 204)      # Light Blue
-WHITE = RgbColor(255, 255, 255)
-DARK_GRAY = RgbColor(51, 51, 51)
-LIGHT_GRAY = RgbColor(240, 240, 240)
+PRIMARY_COLOR = RGBColor(0, 51, 102)      # Dark Blue
+SECONDARY_COLOR = RGBColor(0, 102, 153)   # Medium Blue
+ACCENT_COLOR = RGBColor(0, 153, 204)      # Light Blue
+WHITE = RGBColor(255, 255, 255)
+DARK_GRAY = RGBColor(51, 51, 51)
+LIGHT_GRAY = RGBColor(240, 240, 240)
 
 def add_title_slide(prs):
     """Create title slide"""
