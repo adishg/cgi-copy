@@ -1,6 +1,6 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './App.css';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Home from './pages/Home';
@@ -16,6 +16,39 @@ import NewsPage from './pages/NewsPage';
 import TeamPage from './pages/TeamPage';
 import BlogDetailPage from './pages/BlogDetailPage';
 import NewsDetailPage from './pages/NewsDetailPage';
+
+// Component to handle scrolling to hash sections
+const ScrollToHash = () => {
+  const location = useLocation();
+  
+  useEffect(() => {
+    if (location.hash) {
+      // Give time for the page to render before scrolling
+      const timeoutId = setTimeout(() => {
+        const elementId = location.hash.substring(1); // Remove '#' from hash
+        const element = document.getElementById(elementId);
+        if (element) {
+          // Get header height for offset (sticky header)
+          const headerHeight = document.querySelector('header')?.offsetHeight || 80;
+          const elementPosition = element.getBoundingClientRect().top + window.pageYOffset;
+          const offsetPosition = elementPosition - headerHeight - 20; // 20px extra padding
+          
+          window.scrollTo({
+            top: offsetPosition,
+            behavior: 'smooth'
+          });
+        }
+      }, 100); // Delay to ensure page has rendered
+      
+      return () => clearTimeout(timeoutId);
+    } else {
+      // Scroll to top when navigating to a page without hash
+      window.scrollTo(0, 0);
+    }
+  }, [location]);
+  
+  return null;
+};
 
 function App() {
   return (
