@@ -167,7 +167,7 @@ def add_values_slide(prs):
         ("Innovation", "We continuously evolve our capabilities to help clients navigate changing technology landscapes.")
     ]
     
-    colors = [PRIMARY_COLOR, SECONDARY_COLOR, ACCENT_COLOR, RgbColor(0, 76, 153)]
+    colors = [PRIMARY_COLOR, SECONDARY_COLOR, ACCENT_COLOR, RGBColor(0, 76, 153)]
     
     for i, (value, desc) in enumerate(values):
         col = i % 2
@@ -432,7 +432,7 @@ def add_geography_slide(prs):
         ("Americas", "Columbia, Puerto Rico")
     ]
     
-    colors = [PRIMARY_COLOR, SECONDARY_COLOR, ACCENT_COLOR, RgbColor(0, 76, 153)]
+    colors = [PRIMARY_COLOR, SECONDARY_COLOR, ACCENT_COLOR, RGBColor(0, 76, 153)]
     
     for i, (region, countries) in enumerate(regions):
         x = 0.5 + i * 3.2
