@@ -241,7 +241,7 @@ We will respond to your inquiry within a reasonable timeframe and in accordance 
         <div className="max-w-7xl mx-auto px-6 text-center">
           <h2 className="text-3xl font-bold text-gray-900 mb-4">Questions about privacy?</h2>
           <p className="text-xl text-gray-700 mb-8 max-w-2xl mx-auto">
-            If you have any questions or concerns about our privacy practices, we're here to help.
+            If you have any questions or concerns about our privacy practices, we are here to help.
           </p>
           <a
             href="mailto:privacy@aventraconsulting.com"
