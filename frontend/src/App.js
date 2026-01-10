@@ -16,6 +16,7 @@ import NewsPage from './pages/NewsPage';
 import TeamPage from './pages/TeamPage';
 import BlogDetailPage from './pages/BlogDetailPage';
 import NewsDetailPage from './pages/NewsDetailPage';
+import PrivacyPage from './pages/PrivacyPage';
 
 // Component to handle scrolling to hash sections
 const ScrollToHash = () => {
